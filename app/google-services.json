@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "298634280514",
+    "firebase_url": "https://ajarke-a4867.firebaseio.com",
+    "project_id": "ajarke-a4867",
+    "storage_bucket": "ajarke-a4867.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298634280514:android:3fcc0d222c8ceb37f4b7db",
+        "android_client_info": {
+          "package_name": "com.togettech.ajarke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298634280514-v5heqt699hanrdb4kkhl3sgpu92q5ocr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2pC3kclHk9aI1SUndwVcALimpWPbyRuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298634280514-v5heqt699hanrdb4kkhl3sgpu92q5ocr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
