@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".ui.login.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/img_logo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:background="#fff"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/a"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:background="#fff"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/j"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:background="#fff"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/a"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:background="#fff"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/r"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:background="#fff"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/k"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:background="#fff"
+            android:layout_margin="2dp"
+            android:gravity="center"
+            android:layout_height="40dp">
+
+            <ImageView
+                android:src="@drawable/e"
+                android:layout_width="24dp"
+                android:layout_height="24dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/powered_by_togettech_inc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/powered_by_togettech_inc"
+        android:fontFamily="@font/roboto_thin"
+        android:textColor="#F8F8F8"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="@string/inscrivez_vous_et_econimisez"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="@string/moto"
+            android:textSize="16sp"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_thin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingStart="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:src="@drawable/fb_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:text="Facebook"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_thin"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sign_in_button"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:paddingStart="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:src="@drawable/google"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+
+        <TextView
+            android:text="Google"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_thin"
+            android:textColor="@android:color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

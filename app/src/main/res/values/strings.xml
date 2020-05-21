@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Ajarke</string>
+    <string name="app_name">AJarke</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -12,4 +12,37 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
+    <string name="powered_by_togettech_inc">Powered by TogetTech, Inc</string>
+    <string name="logo">logo</string>
+    <string name="profil">Profil</string>
+    <string name="email">togettechdev@gmail.com</string>
+    <string name="inscrivez_vous_et_econimisez">Inscrivez - vous et éconimisez</string>
+    <string name="moto">Connectez - vous ou inscrivez - vous\npour recevoir les derniers prix,\norganiser vos voyages et plus encore.</string>
+
+    <string name="web_client_id">298634280514-v5heqt699hanrdb4kkhl3sgpu92q5ocr.apps.googleusercontent.com</string>
+    <string name="welcome">Welcome</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="agence_name">Finex Sarl</string>
+    <string name="agence_place">Mvan</string>
+    <string name="recherche">Recherche</string>
+    <string name="informations_de_r_servation">Informations de réservation</string>
+    <string name="agence">Agence</string>
+    <string name="cat_gorie">Catégorie</string>
+    <string name="destination">Destination</string>
+    <string name="date">Date</string>
+    <string name="heure">Heure</string>
+    <string name="bagage">Bagages</string>
+    <string name="document">"Coordonnées "</string>
+    <string name="num_ro_du_documente_d_identit">Numéro carte d’identité</string>
+    <string name="validity_cni">Date de validité</string>
+    <string name="photo">Photo CNI</string>
+    <string name="avant">Avant</string>
+    <string name="arriere">Arrière</string>
+    <string name="tous_les_voyages">Tous les voyages</string>
+    <string name="r_server_maintenant">RéSERVER MAINTENANT</string>
+    <string name="voyageur_name">Votre nom</string>
+
+
 </resources>

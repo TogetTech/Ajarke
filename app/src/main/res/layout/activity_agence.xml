@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.agence.AgenceListActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/bg_viewpager"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:padding="8dp"
+        android:layout_below="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/reseach"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#FAFAFA"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_height="40dp">
+
+            <LinearLayout
+                android:id="@+id/linear_img"
+                android:layout_width="40dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:src="@drawable/img_reseach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/agence_reseach"
+                android:hint="@string/recherche"
+                android:layout_toEndOf="@+id/linear_img"
+                android:paddingStart="10dp"
+                android:background="#FAFAFA"
+                android:layout_marginEnd="40dp"
+                android:inputType="text"
+                android:focusable="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="RtlSymmetry"
+                android:autofillHints="" />
+
+            <LinearLayout
+                android:id="@+id/linear_misc"
+                android:layout_width="40dp"
+                android:layout_alignParentEnd="true"
+                android:background="#ECECEC"
+                android:gravity="center"
+                android:layout_height="40dp">
+
+                <ImageView
+                    android:src="@drawable/misc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:ignore="ContentDescription" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_agence"
+            android:layout_below="@+id/reseach"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+
+</RelativeLayout>
